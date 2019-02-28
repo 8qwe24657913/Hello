@@ -9,8 +9,8 @@ namespace Hello {
         public struct Back : IDisposable {
             public readonly ConsoleColor origColor;
             public Back(ConsoleColor color) {
-                Console.BackgroundColor = color;
                 origColor = Console.BackgroundColor;
+                Console.BackgroundColor = color;
             }
             public void Dispose() {
                 Console.BackgroundColor = origColor;
@@ -19,8 +19,8 @@ namespace Hello {
         public struct Fore : IDisposable {
             public readonly ConsoleColor origColor;
             public Fore(ConsoleColor color) {
-                Console.ForegroundColor = color;
                 origColor = Console.ForegroundColor;
+                Console.ForegroundColor = color;
             }
             public void Dispose() {
                 Console.ForegroundColor = origColor;
