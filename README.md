@@ -6,11 +6,11 @@ C# 课程作业
 
 修改前：
 
-![](.\picture\screencut-hello.PNG)
+![](https://raw.githubusercontent.com/8qwe24657913/Hello/master/picture/screencut-hello.PNG)
 
 修改后：
 
-![](.\picture\solved.png)
+![](https://raw.githubusercontent.com/8qwe24657913/Hello/master/picture/solved.png)
 
 ### 对各种实现方式的比较：
 
